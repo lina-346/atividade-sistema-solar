@@ -1,0 +1,169 @@
+* { 
+    box-sizing: border-box;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* main: */
+.conteudo-principal {
+    max-width: 940px;         
+    padding: 0 12px;
+    margin-top: 50px;
+    box-sizing: inherit;
+    position: relative;
+}
+
+h1 {    
+    color: #0A3227;
+    margin: 60px 0 24px 0;
+    font-size: 2.5rem;
+    /* o padrão é 2rem */
+}
+
+h2 {
+    margin: 50px 0 24px 0;
+    color: #0A3227;
+    font-size: 1.9rem;
+    /* o padrão é 1.5rem */
+}
+
+h3 {    
+    color: #0A3227;
+    font-size: 1.65rem;
+    margin: 45px 0 18px 0;
+    /* o padrão é mais ou menos 1.15rem */
+}
+
+h4 {
+    color: #0A3227;
+    font-size: 1.4rem;
+    margin: 25px 0 18px 0;
+}
+
+h5 {
+    color: #0A3227;
+    font-size: 1.3rem;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-bottom: 16px;    
+}
+
+li {
+    font-size: 1.25rem;
+    margin: 10px;
+}
+
+
+
+figure {
+    align-content: center;
+    display: block;
+    margin: 3.5rem auto;
+    max-width: 80%;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+figure figcaption {
+    display: block;
+    font-size: 1.06rem;
+    text-align: center;
+    max-width: 80%;
+}
+
+
+/* aside */
+.aprender-mais {
+    background-color: rgba(251, 241, 204, 0.794);
+    margin: 8px 2px 64px;
+    padding: 12px 12px 30px;
+    
+}
+
+.aprender-mais h4 {
+    color: #0A3227;
+    margin: 20px;
+
+}
+
+.aprender-mais h5 {
+    color: #0A3227;
+    margin: 0px 43px 12px;
+}
+
+.aprender-mais iframe { 
+    display: block;
+    margin: 30px auto 20px;
+    width: 90%;
+    aspect-ratio: 16 / 10;
+}
+
+.aprender-mais p {
+    margin: 0px 43px 20px;
+}
+
+.aprender-mais figure {
+    aspect-ratio: 16/10;
+    margin: 20px 80px 0px;
+
+}
+/* aside */
+
+
+.proximo {
+    display: block;
+    margin: 20px;
+    padding: 12px;
+    background-color: rgba(247, 235, 220, 0.472);
+    
+}
+
+.proximo p {
+    margin-right: 8%;
+}
+
+
+.under-construction {
+    box-sizing: border-box;
+}
+
+.under-construction figure {
+    max-width: 40%;
+}
+
+
+.rodape {
+    background-color: #ffefe7ac;    
+    box-sizing: border-box;    
+    margin-top: 148px;
+    /* padding: 2px; */
+}
+
+.rodape div {
+    margin: 8px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+
+.rodape h4 {
+    padding: 10px 8px 4px 8px;    
+    font-size: 18px;    
+    color: #0A3227;
+}
+
+.rodape ul {
+    margin-left: 20px;
+    padding: 10px;
+}

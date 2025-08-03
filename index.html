@@ -1,0 +1,106 @@
+<!-- Porta de entrada do site -->
+<!-- Apresentar uma mensagem de boas-vindas e um texto explicando o
+significado/representação do site que está sendo visitado. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="menu stylesheet" href="menu-sistemasolar.css">
+    <link rel="stylesheet" href="site-sistemasolar.css">
+    <link rel="shortcut icon" href="imagens/sun-icon.png">
+    <title>Home</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <!-- menu -->
+      <div class="caixa">
+        <h2 class="logo">
+          <a href="index.html">
+            <img src="imagens/Sun-Clipart-WM.jpg" alt="logo do site.">
+          </a>
+        </h2>
+        <nav class="hmenu" aria-label="Menu principal">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <!-- dropdown -->
+
+            <li class="dropdown">
+              <a href="#">Textos ▼</a>
+              <ul class="submenu">
+                <li><a href="o_sistema_solar.html">O Sistema Solar</a></li>
+                <li>
+                  <a href="astros_satelites_mais.html"
+                    >Astros, satélites e mais</a
+                  >
+                </li>
+                <li><a href="planetas.html">Planetas</a></li>
+              </ul>
+            </li>
+
+            <!-- dropdown -->
+          </ul>
+        </nav>
+      </div>
+      <!-- menu -->
+    </header>
+
+    <main class="conteudo-principal">
+      <h1>Bem vindos!</h1>
+      <p>
+        Este site apresenta informações sobre o Sistema Solar e seus
+        componentes, assim como recomendações de recursos para quem quiser
+        aprendar mais!
+      </p>
+      <p>
+        Você pode selecionar os capítulos que queira ler pelo nosso menu no
+        <u>topo da página!</u> Temos um sobre o Sistema Solar em geral, outro
+        para astros e satélites (e mais!) e outro só sobre os planetas!
+      </p>
+      <p>Espero que gostem, e tenham uma boa jornada espacial 🚀</p>
+
+      <br>
+
+      <figure>
+        <img
+          src="imagens/earthrise.jpg"
+          alt="Foto do planeta Terra tirada na Lua em 1968."
+        >
+        <figcaption>
+          "Earthrise" ("Nascer da Terra"). Foto tirada pelo astronauta Bill
+          Anders durante a missão Apollo 8, em 1968. Os astronautas foram pegos
+          de surpresa durante a missão, ficando maravilhados com o que viram.
+          Fonte:
+          <a
+            href="https://www.bbc.com/future/article/20230511-earthrise-the-photo-that-sparked-an-environmental-movement"
+            >BBC</a
+          >,
+          <a
+            href="https://science.nasa.gov/resource/the-story-behind-apollo-8s-famous-earthrise-photo/"
+            >NASA</a
+          >.
+        </figcaption>
+      </figure>
+    </main>
+
+    <footer class="rodape">
+      <div>
+        <h4>Meu site sobre o sistema solar</h4>
+        <ul>
+          <li><strong>Responsável:</strong> Ana Carolina Alves</li>
+          <li><strong>E-mail:</strong> ana_alves09@pm.me</li>
+          <li>
+            <strong>Curso:</strong> "Introdução ao Python" | Senac RJ - Botafogo
+          </li>
+          <li>Site criado em julho de 2025</li>
+
+          <li><i>Créditos das imagens à NASA e parceiros.</i></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
