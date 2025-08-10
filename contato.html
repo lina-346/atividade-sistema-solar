@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="menu stylesheet" href="menu-sistemasolar.css">
     <link rel="stylesheet" href="site-sistemasolar.css">
+    <link rel="stylesheet" href="contato-sistemasolar.css">
     <link rel="shortcut icon" href="imagens/sun-icon.png">
     <title>Contato</title>
   </head>
 
   <body>
+    <!-- menu -->
     <header class="cabecalho">
-      <!-- menu -->
       <div class="caixa">
         <h2 class="logo">
           <a href="index.html">
@@ -30,8 +31,7 @@
                 <li><a href="o_sistema_solar.html">O Sistema Solar</a></li>
                 <li>
                   <a href="astros_satelites_mais.html"
-                    >Astros, satélites e mais</a
-                  >
+                    >Astros, satélites e mais</a>
                 </li>
                 <li><a href="planetas.html">Planetas</a></li>
               </ul>
@@ -44,20 +44,99 @@
     <!-- menu -->
     <main class="conteudo-principal">
       <h1>Contato</h1>
-
-      <ul>
-        <li><strong>Email: </strong>ana_alves09@pm.me</li>
-      </ul>
+      <h2>Fale conosco!</h2>
       <br>
-      <div class="under-construction">
-        <figure>
-          <img
-            src="imagens/under-construction-pc.png"
-            alt="Ilustração de uma placa com a silhueta de um homem usando um notebook, com a frase 'em construção' escrita embaixo em inglês.">
-        </figure>
-        <p>
-          <strong>Esta página ainda está em construção.</strong>
-        </p>
+      <div class="divform">
+        <form name="frmContato" id="idFrmContato" action="#" method="post">
+          <fieldset>
+            <div class="label">
+              <label for="idNome">Nome</label>
+            </div>
+            <input
+              type="text"
+              id="idNome"
+              name="nome"
+              maxlength="70"
+              placeholder="Digite seu nome"
+              required>
+
+            <div class="label">
+              <label for="idEmail">E-mail</label>
+            </div>
+            <input
+              type="email"
+              id="idEmail"
+              name="email"
+              maxlength="100"
+              placeholder="Digite seu e-mail">
+
+            <div class="label">
+              <label for="idTelefone">Telefone</label>
+            </div>
+            <input
+              type="tel"
+              id="idTelefone"
+              name="telefone"
+              placeholder="Digite seu número de telefone">
+
+            <div class="label">
+              <label>Gênero</label>
+            </div>
+            <input
+              type="radio"
+              id="idGeneroF"
+              name="genero"
+              value="F"
+              class="radio">
+            <label for="idGeneroF" class="label-radio">Feminino</label>
+
+            <input
+              type="radio"
+              id="idGeneroM"
+              name="genero"
+              value="M"
+              class="radio">
+            <label for="idGeneroM" class="label-radio">Masculino</label>
+
+            <input
+              type="radio"
+              id="idGeneroO"
+              name="genero"
+              value="O"
+              class="radio">
+            <label for="idGeneroO" class="label-radio">Prefiro não informar</label>
+
+            <div class="label">
+              <label for="idAssunto">Assunto</label>
+            </div>
+            <select name="assunto" id="idAssunto">
+              <option value="0">Selecione...</option>
+              <option value="E">Elogio</option>
+              <option value="C">Crítica</option>
+              <option value="S">Solicitação</option>
+              <option value="O">Outros</option>
+            </select>
+
+            <div class="label">
+              <label for="idMensagem">Mensagem</label>
+              <textarea
+                name="mensagem"
+                id="idMensagem"
+                cols="200"
+                rows="10"
+                class="minha-text-area"
+                required
+                placeholder="Preencha com a mensagem desejada."
+              >
+              </textarea>
+            </div>
+
+            <div class="botoes">
+              <input type="reset" value="Limpar" class="botao-limpar">
+              <input type="submit" value="Enviar" class="botao-enviar">
+            </div>
+          </fieldset>
+        </form>
       </div>
     </main>
 
@@ -65,19 +144,14 @@
       <div>
         <h4>Meu site sobre o sistema solar</h4>
         <ul>
-          <li><strong>Responsável: </strong>Ana Carolina Alves</li>
-          <li><strong>E-mail: </strong>ana_alves09@pm.me</li>
+          <li><strong>Responsável:</strong> Ana Carolina Alves</li>
+          <li><strong>E-mail:</strong> ana_alves09@pm.me</li>
           <li>
-            <strong>Curso: </strong>"Introdução ao Python" | Senac RJ - Botafogo
+            <strong>Curso:</strong> "Introdução ao Python" | Senac RJ - Botafogo
           </li>
-          <li>Site criado em julho de 2025</li>
+          <li>Site criado em julho/agosto de 2025</li>
 
-          <li>
-            Créditos das imagens à NASA e parceiros. Veja mais em "<a
-              href="https://images.nasa.gov/"
-              >NASA Image and Video Library</a
-            >"
-          </li>
+          <li>Créditos das imagens à NASA e parceiros.</li>
         </ul>
       </div>
     </footer>

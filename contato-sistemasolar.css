@@ -1,0 +1,92 @@
+
+.divform {
+    max-width: 840px;
+    background: #e7faf2bc;        
+    border: 1px solid #d7efe6;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.divform fieldset {
+    border: none;
+}
+
+.label {
+    font-size: 1.5rem;
+    padding: 16px 0 4px 0;
+}
+
+.divform input[type="text"],
+.divform input[type="email"],
+.divform input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 6px;
+    font-size: 1.3rem;
+}
+
+.radio {
+    margin-left: 1rem;
+}
+
+.label-radio {
+    display: inline;
+    padding-left: 6px;
+    font-size: 1.3rem;
+}
+
+.divform select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    border: 1px solid rgb(32, 32, 32);
+}
+
+.minha-text-area {
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    box-sizing: border-box;
+    border: 1px solid rgb(32, 32, 32);
+    border-radius: 6px;
+    font-size: 1.3rem;
+}
+
+.botoes {
+    display: flex; 
+    margin: 24px 0 8px;    
+}
+
+.botoes input {
+    padding: 8px 14px;
+    font-size: 1.1rem;
+    border-radius: 6px;
+}
+
+.botao-limpar {
+    border: 1.8px solid #fca5a5; 
+    color: #1b1b1b;
+    /* margin-right: 12px; */
+}
+
+.botao-limpar:hover { 
+    background: #fee2e2; 
+    cursor: pointer;
+}
+
+.botao-enviar {
+    border: 1.8px solid #195a4abd; 
+    background: #5afec7d7; 
+    color: #181818; 
+    margin-left: auto;
+}
+
+.botao-enviar:hover { 
+    background: #82ffd5; 
+    color: black;
+    cursor: pointer;
+}

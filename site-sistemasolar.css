@@ -2,7 +2,8 @@
     box-sizing: border-box;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin: 0;
     
 }
 
@@ -17,27 +18,28 @@ body {
     margin-top: 50px;
     box-sizing: inherit;
     position: relative;
+    margin: 50px auto 0; 
 }
 
 h1 {    
     color: #0A3227;
     margin: 60px 0 24px 0;
     font-size: 2.5rem;
-    /* o padrão é 2rem */
+    /* eu acho q o padrão é 2rem */
 }
 
 h2 {
     margin: 50px 0 24px 0;
     color: #0A3227;
-    font-size: 1.9rem;
-    /* o padrão é 1.5rem */
+    font-size: 2rem;
+    /* eu acho q o padrão é 1.5rem */
 }
 
 h3 {    
     color: #0A3227;
     font-size: 1.65rem;
     margin: 45px 0 18px 0;
-    /* o padrão é mais ou menos 1.15rem */
+    /* o padrão é mais ou menos 1.15rem , eu acho */
 }
 
 h4 {
@@ -57,36 +59,35 @@ p {
 }
 
 li {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     margin: 10px;
 }
-
+/* main */
 
 
 figure {
-    align-content: center;
-    display: block;
     margin: 3.5rem auto;
-    max-width: 80%;
+    width: clamp(128px, 80%, 900px);
 }
 
 figure img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
 figure figcaption {
     display: block;
-    font-size: 1.06rem;
+    font-size: 1.15rem;
     text-align: center;
-    max-width: 80%;
+    width: 100%;
+    margin: 6px 0 0; 
 }
 
 
 /* aside */
 .aprender-mais {
-    background-color: rgba(251, 241, 204, 0.794);
+    background-color: rgba(251, 241, 204, 0.792);
     margin: 8px 2px 64px;
     padding: 12px 12px 30px;
     
@@ -94,13 +95,13 @@ figure figcaption {
 
 .aprender-mais h4 {
     color: #0A3227;
-    margin: 20px;
+    margin: 20px 44px;
 
 }
 
 .aprender-mais h5 {
     color: #0A3227;
-    margin: 0px 43px 12px;
+    margin: 0px 44px 12px;
 }
 
 .aprender-mais iframe { 
@@ -111,7 +112,7 @@ figure figcaption {
 }
 
 .aprender-mais p {
-    margin: 0px 43px 20px;
+    margin: 0px 44px 20px;
 }
 
 .aprender-mais figure {
@@ -119,15 +120,24 @@ figure figcaption {
     margin: 20px 80px 0px;
 
 }
+
+.aprender-mais figure img {
+  max-width: 100%;
+  width: auto; 
+  margin: 0 auto;              
+}
 /* aside */
 
 
 .proximo {
     display: block;
-    margin: 20px;
+    margin: 128px 0;
     padding: 12px;
     background-color: rgba(247, 235, 220, 0.472);
-    
+}
+
+.proximo h5 {
+    margin: 12px 0;
 }
 
 .proximo p {
@@ -135,20 +145,19 @@ figure figcaption {
 }
 
 
-.under-construction {
+/* .under-construction {
     box-sizing: border-box;
 }
 
 .under-construction figure {
     max-width: 40%;
 }
-
+ */
 
 .rodape {
     background-color: #ffefe7ac;    
     box-sizing: border-box;    
     margin-top: 148px;
-    /* padding: 2px; */
 }
 
 .rodape div {
