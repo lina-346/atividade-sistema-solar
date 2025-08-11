@@ -1,8 +1,8 @@
 
 .divform {
     max-width: 840px;
-    background: #e7faf2bc;        
-    border: 1px solid #d7efe6;
+    background: rgba(207, 207, 207, 0.342);        
+    border: 2px solid #8a928ecc;
     border-radius: 12px;
     padding: 16px;
 }
@@ -68,7 +68,7 @@
 }
 
 .botao-limpar {
-    border: 1.8px solid #fca5a5; 
+    border: 1.8px solid #eb9191; 
     color: #1b1b1b;
     /* margin-right: 12px; */
 }
